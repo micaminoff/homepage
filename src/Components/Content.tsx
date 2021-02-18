@@ -48,10 +48,14 @@ const techImages = (
       alt='react'
       src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png'
     />
-    <br />
     <img
       alt='typescript'
       src='https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg'
+    />
+    <br />
+    <img
+      alt='azure'
+      src='https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg'
     />
   </Card>
 );

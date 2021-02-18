@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Header } from './Components/Header';
+import { Content } from './Components/Content';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div id='App'>
+      <Header />
+      <Content />
+      <footer>
+        Header image source:{' '}
+        <a href='https://www.vgscorporatelawyers.com/wp-content/uploads/2019/05/Corporate-e1557923264473.jpg'>
+          link
         </a>
-      </header>
+      </footer>
     </div>
   );
 }

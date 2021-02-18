@@ -67,7 +67,8 @@ const intro = (
       <p>My name is Michael. I make serious websites. Like this one.</p>
       <p>
         This small site is meant to show my aptitude with web development. I
-        hope you enjoy it.
+        hope you enjoy it. If you're curious about how it runs, you can check
+        out the code <a href='https://github.com/micaminoff/homepage'>here.</a>
       </p>
     </Card>
   </section>
